@@ -1,30 +1,62 @@
-# Used_cars-dataset
-Scraping all 13000+ used cars from carsguide.com
+# Creating used cars dataset with python.
+The goal of this project is to extract used cars information to create a clean dataset which can be use for Data Analysis in the future. 
+This project is for Experienced scraper, who can contribute to improve the code in the project.
 
-The used car industry has revolutionized in the last decade and is now driven by data and is expected to grow up to $1.9B by 2027. 
-Data empowers businesses to make decisions based on statistical numbers, trends, and facts.
-Thanks to modern technologies, collecting data is now easier than ever.
 
-The data can then be used to analyze industry trends, track fluctuations in used car prices, or even collect customer reviews and ratings to improve your business strategy. If you are aiming to expand and improve your automotive business, web scraping is a solution that can help you get closer to your objectives.
 
-# Why Scrape Used Car Data?
 
-## Used Car Customers are Predominantly moving Online
-## Presence of Unorganized Players Online
-## Understand Customer Buying Trends
-## Dynamic Business Strategy
 
-# What are Different Data Fields That Can Be Scraped from Used Car Websites?
-Various data fields can be scraped from a used car website. Some of the most commonly scraped data categories are as follows:
-### Year
-### Make
-### Model
-### City
-### State
-### Price
-### Dealer
-### Dealer's Location
-### Fuel Type
-### Product Description
-### Transmission
-### Miles
+
+# Dependencies
+
+1. Python3 version_3.9 above.
+2. BeautifulSoup
+3. aiohttp
+4. Pandas
+5. Asyncio
+6. Requests
+### Python3
+Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
+### Aiohttp
+Aiohttp which is an HTTP client/server for asyncio. Basically, it allows you to write asynchronous clients and servers.
+### BeautifulSoup
+Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+### Pandas
+pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license.
+### Asyncio
+Asyncio is a library to write concurrent code using the async/await syntax. asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc.
+### Requests
+Requests is a HTTP library for the Python programming language. The goal of the project is to make HTTP requests simpler and more human-friendly.
+
+
+
+# Installation
+Use the package manager pip to install the depenencies.
+
+Python3: https://www.python.org/downloads/
+
+BeautifulSoup: https://pypi.org/project/beautifulsoup4/
+
+Aiohttp: https://pypi.org/project/aiohttp/
+
+Pandas: https://pandas.pydata.org/docs/getting_started/install.html
+
+Asyncio: https://pypi.org/project/asyncio/
+
+Requests: https://pypi.org/project/requests/
+
+# Features
+1. Scrape cars data from https://www.carsguide.com in less than 1 minutes: Product name, Products Price, Products Ratings, Products Reviews.
+2. Result is saved to a CSV.
+3. You can scrape up to 25000+ houses.
+4. It takes as input the number range of page to scrape.
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit/)
